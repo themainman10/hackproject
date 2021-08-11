@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.delivery-map{
+    width: 40%;
+}
+
+
+
+.del-sec{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.more-info{
+    display: block;
+    align-content: center;
+    
+}
