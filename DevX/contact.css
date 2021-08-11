@@ -2,9 +2,15 @@
     margin: 0%;
     padding: 0%;
 }
-
-
-.form-area{
-    margin-right: 10%;
-    margin-left: 10%;
+#nav-1-1{
+    width: 5%;
+    padding: 0%;
 }
+
+
+    .form-area-1{
+        margin-bottom: 15%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 5%;
+    }
