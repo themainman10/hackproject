@@ -21,3 +21,27 @@
     margin: 4px 2px;
     cursor: pointer;
   }
+
+
+
+
+
+
+.text-body{
+    text-align: center;
+}
+
+.text-space{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+.HTSU-sec{
+   text-align: center;
+}
+
+#h1-1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
