@@ -3,46 +3,107 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="account.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <title>Home</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="container-fluid">
+          <img id="nav-1-1" src="https://www.logolynx.com/images/logolynx/2b/2b01d41811b4d26464e23774df2d8062.png" alt="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="perciption.html">prescription
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="OTCmeds.html">OTC Meds
-              </a>
-            </li> 
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="account.html">Account
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="aboutus.html">About us 
-              </a>
-            </li>
-          </ul>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+              <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="perciption.html">prescription
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="OTCmeds.html">OTC Meds
+                  </a>
+                </li> 
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="account.html">Account
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="aboutus.html">About us 
+                  </a>
+                </li>
+              </ul>
+          </div>
+      </div>
+    </nav>
+
+    <div class="about-ac">
+      <h1>Account setings</h1>
+      <h3 id='h3-1-1'>Change Delivery Address</h3>
+      <div class='del-date'>
+        <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Enter Password To Change Delivery Address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Enter New Delivery Address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" >
+        <a href="#" class="button">Confirm</a>
+      </div>
+      </div>
+      <h3 id='h3-1-2'>Change Delivery Date</h3>
+      <div class='del-date'>
+        <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Enter Password To Change Delivery Date</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Enter New Delivery Date</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="1/1/2022">
+        <a href="#" class="button">Confirm</a>
+      </div>
+      </div>
+      <h3 id='h3-1-1'>Change Payment Info</h3>
+      <div class='del-date'>
+        <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Enter Password To Change Payment Info</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1">
+        
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Enter New Payment Info</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="1111-1111-1111-1111">
+        <div class='pay-info'>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="111">
+          <a href="#" class="button">Confirm</a>
         </div>
-      </nav>
+      </div>
+      </div>
+
+
+      <h3 id='h3-1-3'>Contact Doctor </h3>
+      <img class='doc-pic'src="https://www.publicdomainpictures.net/pictures/210000/velka/doctor-1490804718D0I.jpg" alt="">
+      <h6>Doctors Name: Dr. Lee</h6>
+      <h6>Conact number: 111-111-1111</h6>
+
+
+
+      <h3 id='h3-1-3'>Delete Account</h3>
+      <label for="exampleFormControlInput1" class="form-label">Enter Password To Delete Account</label>
+      <h6>Click Button To Confirm</h6>
+      <a href="#" class="button">Confirm</a>
+
+
+
+    </div>
 
 
 
