@@ -4,9 +4,9 @@
     text-align: center;
     
 }
-#nav-1-1{
-    width: 5%;
-    padding: 0%;
+.nav-1-1{
+    width: 5;
+    margin-right: 5%;
 }
 
 body{
